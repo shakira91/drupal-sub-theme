@@ -1,0 +1,31 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'D4SG'
+description: 'Uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
+package: 'Bootstrap'
+
+regions:
+  # navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Header'
+  headline: 'Headline'
+  highlighted: 'Highlighted'
+  about: 'About'
+  staff: 'Staff'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'D4SG/global-styling'
+  - 'D4SG/bootstrap-scripts'
+  - 'D4SG/global-scripts'
+
+stylesheets-remove:
+  - normalize.css
