@@ -3,6 +3,8 @@
 <!-- @ingroup sub_theming -->
 # Sass Starterkit
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/shakira91/drupal-sub-theme.svg)](https://greenkeeper.io/)
+
 Below are instructions on how to create a Bootstrap sub-theme using a Sass
 preprocessor.
 
